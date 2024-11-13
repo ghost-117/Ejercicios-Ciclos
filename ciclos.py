@@ -31,4 +31,5 @@ for i in range(10, 21):
 #Imprimir la tabla completa  de multiplicar de un numero  leido desde el teclado, 
 num = int(input("Ingresa un número: "))
 for i in range(1, 11):
-    print(f" La tabla de multiplicar del {num}  es {num} x {i}  = {num * i}")
+    print(f" La tabla de multiplicar del {num}  es {num} x {i}  = {num * i}") 
+
