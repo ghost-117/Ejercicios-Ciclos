@@ -25,7 +25,7 @@ try:
     if pares:
         print("\nNúmeros pares encontrados:")
         for i in range(0, len(pares), 10):
-            print(*pares[i+10], separacion="\t")
+            print(*pares[i:i+10], separacion="\t")
         print(f"\nTotal de números pares: {len(pares)}")
     else:
         print("\nNo se encontraron números pares en el rango especificado")
@@ -33,4 +33,4 @@ try:
 except ValueError:
     print("\nError: Por favor ingrese solo números enteros")
 
-print("\n" + "=" * 40)
+print("\n" + "=" * 30)
