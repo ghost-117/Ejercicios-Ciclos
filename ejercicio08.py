@@ -2,11 +2,6 @@
 Escribir un programa que imprima todos los números pares entre dos números que 
 se le pidan al usuario.
 '''
-# Versión profesional usando for y range
-print("\n=== Buscador de Números Pares ===")
-print("=" * 40)
-
-# Obtener y validar la entrada del usuario
 try:
     num1 = int(input("Ingrese el primer número: "))
     num2 = int(input("Ingrese el segundo número: "))
@@ -33,4 +28,4 @@ try:
 except ValueError:
     print("\nError: Por favor ingrese solo números enteros")
 
-print("\n" + "=" * 30)
+print("\n" + "=" * 25)
